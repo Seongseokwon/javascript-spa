@@ -1,4 +1,4 @@
-import BaseView from "../common/BaseView.js";
+import BaseView from "../../../lib/views/BaseView.js";
 
 export default class About extends BaseView {
   constructor() {
@@ -17,7 +17,6 @@ export default class About extends BaseView {
 
   changeInput(e) {
     e.stopPropagation();
-    console.log(e.target.value);
     this.content = e.target.value;
   }
 

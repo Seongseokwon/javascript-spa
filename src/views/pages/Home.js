@@ -1,4 +1,4 @@
-import BaseView from "../common/BaseView.js";
+import BaseView from "../../../lib/views/BaseView.js";
 
 export default class HomeView extends BaseView {
   constructor() {

@@ -46,8 +46,6 @@ export default class Router {
 
       document.querySelector("#app").innerHTML = content;
       view.mounted();
-      const event = new CustomEvent("viewRendered", { detail: { path } });
-      window.dispatchEvent(event);
     }
   }
 }
